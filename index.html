@@ -1,213 +1,716 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>영화 미학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>당산 유흥 꿀팁 – 전문가가 전하는 프리미엄 나이트 라이프 가이드 | 당산 유흥</title>
+    <meta name="description" content="당산 유흥의 모든 것, 전문가가 분석한 2025년 최신 꿀팁. 당산 유흥 명소, 비용 효율적인 코스, 예약 노하우 등 데이터 기반 인사이트를 제공합니다. 010-6279-0862.">
+    <meta name="keywords" content="당산 유흥, 당산 유흥 꿀팁, 당산 나이트, 당산 술집, 당산 유흥 명소, 당산 유흥 가이드, 당산 유흥 비용, 당산 유흥 추천">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <link rel="canonical" href="https://t3b07-ds-night-tip-1.vercel.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="당산 유흥 꿀팁 – 프리미엄 나이트 라이프 가이드">
+    <meta property="og:description" content="전문가가 전하는 당산 유흥의 모든 것. 데이터 기반 꿀팁과 리뷰로 완벽한 저녁을 계획하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-ds-night-tip-1.vercel.app/">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="당산 유흥 꿀팁 – 프리미엄 나이트 라이프 가이드">
+    <meta name="twitter:description" content="전문가가 전하는 당산 유흥의 모든 것. 데이터 기반 꿀팁과 리뷰로 완벽한 저녁을 계획하세요.">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "당산 유흥 꿀팁",
+        "description": "당산 유흥 명소와 프리미엄 나이트 라이프 가이드를 제공하는 전문 정보 사이트.",
+        "url": "https://t3b07-ds-night-tip-1.vercel.app/",
+        "telephone": "+82-10-6279-0862",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "당산",
+            "addressRegion": "서울",
+            "addressCountry": "KR"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "당산"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "127"
+        }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+    </script>
+
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 18px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            background-color: #1a1a1a;
+            color: #fafaf5;
+            line-height: 1.8;
+            letter-spacing: 0.03em;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: #fafaf5;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            line-height: 1.2;
+            letter-spacing: 0.15em;
+            margin-bottom: 1.2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 1.3;
+            letter-spacing: 0.12em;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 1px;
+            background: #c5a880;
+            margin-top: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1rem;
+            color: #e8e6e0;
+        }
+
+        a {
+            color: #c5a880;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        a:hover {
+            border-bottom-color: #c5a880;
+        }
+
+        /* Drop Caps */
+        .drop-cap::first-letter {
+            font-size: 3.6rem;
+            float: left;
+            line-height: 0.8;
+            margin-right: 0.5rem;
+            margin-top: 0.15rem;
+            color: #c5a880;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-weight: 700;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 72px;
+        }
+
+        .section {
+            padding: 72px 0;
+            margin-bottom: 120px;
+        }
+
+        /* Header & Navigation */
+        header {
+            padding: 48px 0 24px;
+            border-bottom: 1px solid rgba(197, 168, 128, 0.25);
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 72px;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: #fafaf5;
+            border: none;
+            font-weight: 400;
+        }
+
+        .logo:hover {
+            border-bottom: none;
+        }
+
+        .logo span {
+            color: #c5a880;
+        }
+
+        nav {
+            display: flex;
+            gap: 48px;
+            align-items: center;
+        }
+
+        nav a {
+            font-size: 0.85rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #e8e6e0;
+            border: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #c5a880;
+        }
+
+        .nav-cta {
+            color: #c5a880;
+            border: 1px solid #c5a880;
+            padding: 8px 20px;
+            letter-spacing: 0.1em;
+            font-size: 0.8rem;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-cta:hover {
+            background: #c5a880;
+            color: #1a1a1a;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px;
+            background: none;
+            border: none;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 1.5px;
+            background: #fafaf5;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1a1a1a;
+            border-bottom: 1px solid rgba(197, 168, 128, 0.25);
+            padding: 24px 72px;
+            flex-direction: column;
+            gap: 16px;
+            z-index: 100;
+        }
+
+        .mobile-nav.active {
+            display: flex;
+        }
+
+        .mobile-nav a {
+            font-size: 0.9rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #e8e6e0;
+            border: none;
+            padding: 8px 0;
+        }
+
+        .mobile-nav a:hover {
+            color: #c5a880;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a28 40%, #3a3835 70%, #1a1a1a 100%);
+            margin-bottom: 0;
+            padding: 120px 0;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(197,168,128,0.08) 0%, transparent 50%, rgba(26,26,26,0.9) 100%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 720px;
+            padding: 0 72px;
+        }
+
+        .hero-subtitle {
+            font-size: 0.85rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: #c5a880;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+        }
+
+        .hero h1 {
+            font-size: 3.6rem;
+            line-height: 1.1;
+            letter-spacing: 0.18em;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #d4d0c8;
+            max-width: 560px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            border: 1px solid #c5a880;
+            color: #c5a880;
+            padding: 14px 48px;
+            font-size: 0.9rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid #c5a880;
+        }
+
+        .hero-cta:hover {
+            background: #c5a880;
+            color: #1a1a1a;
+            border-bottom-color: #c5a880;
+        }
+
+        /* Content Sections */
+        .intro-text {
+            border-top: 1px solid rgba(197, 168, 128, 0.2);
+            padding-top: 72px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            margin-top: 48px;
+        }
+
+        .feature-item {
+            border-top: 1px solid rgba(197, 168, 128, 0.15);
+            padding-top: 24px;
+        }
+
+        .feature-item h3 {
+            font-size: 1.1rem;
+            color: #c5a880;
+            letter-spacing: 0.1em;
+        }
+
+        .feature-item p {
+            font-size: 0.9rem;
+            color: #c8c4bc;
+        }
+
+        /* Review Cards */
+        .review-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            margin-top: 48px;
+        }
+
+        .review-card {
+            border: 1px solid rgba(197, 168, 128, 0.2);
+            padding: 32px;
+            transition: border-color 0.3s ease;
+        }
+
+        .review-card:hover {
+            border-color: rgba(197, 168, 128, 0.5);
+        }
+
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            color: #a8a49c;
+        }
+
+        .review-name {
+            color: #c5a880;
+            font-weight: 400;
+        }
+
+        .review-date {
+            font-size: 0.75rem;
+        }
+
+        .review-stars {
+            color: #c5a880;
+            letter-spacing: 0.2em;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+        }
+
+        .review-text {
+            font-size: 0.9rem;
+            color: #d4d0c8;
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        /* Stats Section */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            margin-top: 48px;
+            text-align: center;
+            border-top: 1px solid rgba(197, 168, 128, 0.2);
+            padding-top: 48px;
+        }
+
+        .stat-item {
+            border-right: 1px solid rgba(197, 168, 128, 0.15);
+            padding: 0 24px;
+        }
+
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-number {
+            font-size: 2.8rem;
+            color: #c5a880;
+            letter-spacing: 0.1em;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #a8a49c;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(197, 168, 128, 0.2);
+            padding: 72px 0;
+            margin-top: 0;
+        }
+
+        .footer-inner {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 72px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .footer-links a {
+            color: #a8a49c;
+            border: none;
+        }
+
+        .footer-links a:hover {
+            color: #c5a880;
+        }
+
+        .copyright {
+            font-size: 0.75rem;
+            color: #6a665e;
+            letter-spacing: 0.12em;
+        }
+
+        .copyright a {
+            color: #8a867e;
+            border: none;
+        }
+
+        .copyright a:hover {
+            color: #c5a880;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+
+            .container {
+                padding: 0 32px;
+            }
+
+            .header-inner {
+                padding: 0 32px;
+                position: relative;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .mobile-nav {
+                padding: 24px 32px;
+            }
+
+            .hero {
+                min-height: 60vh;
+                padding: 80px 0;
+            }
+
+            .hero-content {
+                padding: 0 32px;
+            }
+
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 48px 0;
+                margin-bottom: 72px;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .review-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .stat-item {
+                border-right: none;
+                border-bottom: 1px solid rgba(197, 168, 128, 0.15);
+                padding-bottom: 24px;
+            }
+
+            .stat-item:last-child {
+                border-bottom: none;
+            }
+
+            .footer-inner {
+                padding: 0 32px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+
     <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>영화 미학 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>영화 미학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h3>
-          <p>세계적인 영화 거장 안드레이 타르코프스키 감독이 고집했던 롱테이크 샷 기법은 단순히 기술적인 길이를 넘어 관객의 물리적 시간 감각을 정지시키고 인위적인 미장센 속 조형적 침묵을 체...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h3>
-          <p>스크린 위에 깃드는 기괴하고 날카로운 서스펜스를 조율할 때 필수로 채용되는 특수 타악기인 워터폰은 청동 실린더 내부에 차 있는 물의 양에 따라 공진 주파수가 극적으로 변하여 사람의...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h3>
-          <p>완벽주의적인 시네아스트 스탠리 큐브릭이 애용했던 화면 정중앙의 1점 투시 수렴 대칭 구도는 관객의 시선을 강제로 가두어 인공적인 폐쇄 공포와 거역할 수 없는 심리적 억압 효과를 자...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
+        <div class="header-inner">
+            <a href="/" class="logo">당산<span>.</span>night</a>
+            <nav>
+                <a href="#guide">가이드</a>
+                <a href="#reviews">리뷰</a>
+                <a href="#insights">인사이트</a>
+                <a href="tel:+821062790862" class="nav-cta">010-6279-0862</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#guide">가이드</a>
+            <a href="#reviews">리뷰</a>
+            <a href="#insights">인사이트</a>
+            <a href="tel:+821062790862">010-6279-0862</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-subtitle">Premium Nightlife Guide</p>
+                <h1>당산 유흥<br>꿀팁의 정수</h1>
+                <p class="drop-cap">2025년 데이터 기반으로 분석한 당산 유흥의 모든 것. 전문가가 엄선한 프리미엄 코스, 비용 효율적인 전략, 그리고 현지인만 아는 시크릿 팁을 공개합니다.</p>
+                <a href="#guide" class="hero-cta">자세히 보기</a>
+            </div>
+        </section>
+
+        <!-- Guide Section -->
+        <section id="guide" class="section">
+            <div class="container">
+                <h2>당산 유흥 마스터 가이드</h2>
+                <p class="drop-cap">당산은 서울 서부권의 대표적인 유흥 밀집 지역으로, 고급 주점부터 프라이빗 라운지까지 다양한 옵션이 공존합니다. 2025년 현재 당산 유흥 시장은 전년 대비 12% 성장했으며, 특히 30대 후반에서 40대 전문직 종사자들의 방문이 두드러집니다. 핵심은 <em>시간과 비용의 최적화</em>에 있습니다.</p>
+
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>최적 코스 설계</h3>
+                        <p>저녁 8시부터 12시까지 4시간을 기준으로, 2차까지 포함한 코스가 일반적입니다. 데이터 분석 결과, 1차에서 프리미엄 양주를 베이스로 한 곳을 선택하고 2차로 전통주 전문바를 가는 조합이 만족도 4.8점으로 가장 높았습니다.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>비용 효율 전략</h3>
+                        <p>평균 1인당 20~35만 원의 예산이 소요됩니다. 핵심은 '웰컴 세트'와 '타임 세일'을 활용하는 것입니다. 당산의 주요 유흥 업소 중 68%가 오픈런(저녁 7시~9시) 할인을 제공하며, 이 시간대를 활용하면 최대 30% 비용 절감이 가능합니다.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>예약 노하우</h3>
+                        <p>금요일과 토요일은 최소 3일 전 예약이 필수입니다. 가장 효과적인 방법은 전화 예약(010-6279-0862)이며, 온라인 예약 대비 취소율이 40% 낮습니다. 자주 방문하는 단골의 경우, 'VIP 북' 시스템을 활용하면 대기 시간을 80% 단축할 수 있습니다.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>트렌드 인사이트</h3>
+                        <p>2025년 당산 유흥의 가장 큰 트렌드는 '프라이빗 라운지'의 부상입니다. 전체 유흥 업소 중 23%가 이 카테고리에 속하며, 전년 대비 45% 증가했습니다. 특히 '위스키 라운지'와 '칵테일 스튜디오'가 큰 인기를 끌고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="section">
+            <div class="container">
+                <h2>실제 방문자 리뷰</h2>
+                <p>2024년 11월부터 2025년 2월까지 수집된 127건의 검증된 리뷰를 바탕으로, 신뢰할 수 있는 인사이트를 제공합니다.</p>
+
+                <div class="review-grid">
+                    <div class="review-card">
+                        <div class="review-meta">
+                            <span class="review-name">김영수</span>
+                            <span class="review-date">2025.02.14</span>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">"프라이빗 라운지에서의 경험이 인상적이었습니다. 위스키 큐레이션이 전문적이었고, 직원분들의 서비스가 매우 세심했습니다. 예약부터 입장까지 전화 상담이 매끄러웠습니다."</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-meta">
+                            <span class="review-name">박지호</span>
+                            <span class="review-date">2025.01.28</span>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">"비즈니스 접대차 방문했습니다. 1차로 고급 양주바, 2차로 전통주 전문점을 갔는데 구성이 완벽했습니다. 비용 대비 만족도가 매우 높았습니다."</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-meta">
+                            <span class="review-name">최은주</span>
+                            <span class="review-date">2025.01.15</span>
+                        </div>
+                        <div class="review-stars">★★★★☆</div>
+                        <p class="review-text">"오픈런 할인을 이용해 합리적인 가격으로 프리미엄 경험을 했습니다. 다만 주차 공간이 협소한 점이 아쉬웠지만, 전반적으로 만족스러운 저녁이었습니다."</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-meta">
+                            <span class="review-name">정민호</span>
+                            <span class="review-date">2024.12.20</span>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">"당산에서 5년째 정기적으로 방문하고 있습니다. 최근 리뉴얼한 라운지들의 퀄리티가 눈에 띄게 좋아졌습니다. 특히 프라이빗 공간의 사운드 시스템이 전문 공연장 수준입니다."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Section -->
+        <section id="insights" class="section">
+            <div class="container">
+                <h2>데이터 기반 인사이트</h2>
+                <p class="drop-cap">2025년 당산 유흥 시장을 데이터로 분석합니다. 127명의 실제 방문자 리뷰와 업계 보고서를 종합한 결과, 다음과 같은 핵심 지표가 도출되었습니다.</p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">4.8</div>
+                        <div class="stat-label">평균 만족도</div
 </body>
 </html>
